@@ -13,7 +13,7 @@ class LatestRelease extends Component {
         return (
            <Container>
                <h2 className="text-center">Lates Release</h2>
-               <Row className="row-cols-1 row-cols-md-3 row-cols-lg-5">
+               <Row className="row-cols-1 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
                    {bookList.map(book => {
                         return (
                             <Col className="mb-3">
