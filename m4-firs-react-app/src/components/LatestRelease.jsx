@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Container, Row} from "react-bootstrap";
-import bookList from "../data/fantasy.json";
+import bookList from "../data/horror.json";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
