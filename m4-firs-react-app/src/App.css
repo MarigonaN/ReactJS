@@ -2,8 +2,8 @@
 .footer li {
   list-style-type: none;
 }
-.footer a{
-  color: whitesmoke;
+.footer{
+  color: black;
   font-size: 1.1rem;
   
 }
