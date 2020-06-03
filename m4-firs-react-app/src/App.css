@@ -1,0 +1,20 @@
+
+.footer li {
+  list-style-type: none;
+}
+.footer a{
+  color: whitesmoke;
+  font-size: 1.1rem;
+  
+}
+
+.jumbotron {
+  height: 50vh;
+ 
+  background-repeat: no-repeat;
+
+  background-position:center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.jakpost.net/c/2019/09/26/2019_09_26_80058_1569468462._large.jpg');;
+  color: whitesmoke;
+}
