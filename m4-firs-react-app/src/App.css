@@ -24,6 +24,9 @@
 
   background-position:center;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.jakpost.net/c/2019/09/26/2019_09_26_80058_1569468462._large.jpg');;
+  background-image: linear-gradient(rgba(204, 156, 188, 0.096), rgba(204, 156, 188, 0.582)), url('https://s26162.pcdn.co/wp-content/uploads/2015/12/book-spines.jpeg');;
   color: whitesmoke;
+}
+#smth image:hover{
+  opacity: 1.0;
 }
