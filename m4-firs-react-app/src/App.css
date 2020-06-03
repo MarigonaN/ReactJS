@@ -7,6 +7,15 @@
   font-size: 1.1rem;
   
 }
+.footer a i:last-child{
+  color: red;
+}
+.footer a{
+  color: grey;
+}
+.footer a i:hover{
+  color: black;
+}
 
 .jumbotron {
   height: 50vh;
