@@ -1,0 +1,14 @@
+body {
+  background-color: whitesmoke !important;
+  
+  margin: 0;
+  font-family: -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier New',
+    
+}
