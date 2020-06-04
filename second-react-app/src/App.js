@@ -14,7 +14,7 @@ class App extends Component {
             <>
                 <NavBar title="Pair Programming"/>
                 <WarningSign text="This is a Warning Sign"/>
-                <MyBadge  text={"This is My Badge"}/>
+                <MyBadge text={"This is MyBadge "} variant={"info"}/>
                 <SingleBook book = {singleBook}/>
             </>
         );
