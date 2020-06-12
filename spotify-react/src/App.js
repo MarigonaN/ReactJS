@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-
 import './App.css';
 import NavBar from './components/NavBar';
 
@@ -19,34 +18,6 @@ function App() {
   );
 }
 
-
-let rockArtists = [
-  "queen",
-  "u2",
-  "thepolice",
-  "eagles",
-  "thedoors",
-  "oasis",
-  "thewho",
-  "bonjovi",
-];
-
-let popArtists = [
-  "maroon5",
-  "coldplay",
-  "onerepublic",
-  "jamesblunt",
-  "katyperry",
-  "arianagrande",
-];
-
-let hipHopArtists = [
-  "eminem",
-  "snoopdogg",
-  "lilwayne",
-  "drake",
-  "kanyewest",
-];
 
 let headers = new Headers({
   "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
@@ -70,7 +41,7 @@ window.onload = () => {
           "#" + artist.charAt(0).toUpperCase() + artist.slice(1)
         );
 
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 8; i++) {
           div.innerHTML += `
             <div class="col text-center" id=${songInfo[i].id}>
               <img class="img-fluid w-100" src=${
@@ -94,5 +65,11 @@ window.onload = () => {
   fetchArtists("Rihanna");
   fetchArtists("Metallica");
 };
+
+
+
+
+
+
 
 export default App;
