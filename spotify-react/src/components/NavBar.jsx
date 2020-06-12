@@ -7,7 +7,7 @@ import {Navbar} from 'react-bootstrap';
         const mystyle = {
             position: "sticky",
             top: "0",
-            
+            height: "130 vh",
            
             alignContent: "space-between",
           };
@@ -20,10 +20,10 @@ import {Navbar} from 'react-bootstrap';
           };
         
         return (
-<div class="conatiner-fluid home-content">
-      <div class="row w-100 ml-0 mr-0">
-        <nav class="col-sm-3 col-md-3 col-lg-2 d-none d-md-block  sidebar">
-          <div class="sidebar-sticky d-flex   flex-column justify-content-between" style={ mystyle}>
+<div className="conatiner-fluid home-content">
+      <div className="row w-100 ml-0 mr-0">
+        <nav className="col-sm-3 col-md-3 col-lg-2 d-none d-md-block  sidebar">
+          <div className="sidebar-sticky d-flex   flex-column justify-content-between" style={ mystyle}>
             
     <Navbar  expand="lg" id="Navbar">
     <div className="col" >
@@ -35,16 +35,16 @@ import {Navbar} from 'react-bootstrap';
                     <li className="mt-3  nav-item"><a href="/"><i className="fa fa-search mr-3"></i>Search</a></li>
                     <li className="mt-3  nav-item"><a href="/"><i className="fa fa-book  mr-3"></i>Your Library</a></li>
                     </ul>
-         <div class="col d-flex flex-column w-100">
-                <ul class="nav flex-column justify-content-center align-items-center w-100 mt-auto pb-5">
-                  <li class="nav-item w-100 mb-3">
-                      <button type="button" class="btn btn-light  w-100 rounded-pill" style={{fontWeight:"500", marginTop: "350px"}}>SIGN UP</button>
+         <div className="col d-flex flex-column w-100">
+                <ul className="nav flex-column justify-content-center align-items-center w-100 mt-auto pb-5">
+                  <li className="nav-item w-100 mb-3">
+                      <button type="button" className="btn btn-light  w-100 rounded-pill" style={{fontWeight:"500", marginTop: "350px"}}>SIGN UP</button>
                   </li>
-                  <li class="nav-item w-100 mb-2">
-                     <button type="button" onclick="goToLogin()" class="btn btn-secondary w-100 rounded-pill" style={mystyle1}>LOGIN</button>
+                  <li className="nav-item w-100 mb-2">
+                     <button type="button" onClick="goToLogin()" className="btn btn-secondary w-100 rounded-pill" style={mystyle1}>LOGIN</button>
                   </li>
-                  <li class="nav-item">
-                    <small class="mr-2">Cookie</small>|<small class="ml-2">Privacy Policy</small>
+                  <li className="nav-item">
+                    <small className="mr-2">Cookie</small>|<small className="ml-2">Privacy Policy</small>
                   </li>
                  
                 </ul>
@@ -54,31 +54,31 @@ import {Navbar} from 'react-bootstrap';
     </Navbar>
 </div>
 </nav>
-<div class="col-sm-9 col-md-9 col-lg-10 pb-sm-4 " >
-              <nav class="navbar navbar-expand-lg navbar-light   pt-3 mb-3">
+<div className="col-sm-9 col-md-9 col-lg-10 pb-sm-4 " >
+              <nav className="navbar navbar-expand-lg navbar-light   pt-3 mb-3">
                  
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                   </button>
                 
-                 <div class="d-flex align-items-center m-auto">
-                      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto ">
-                          <li class="nav-item active mr-3">
-                            <a class="nav-link bolder" href="#">Trending <span class="sr-only">(current)</span></a>
+                 <div className="d-flex align-items-center m-auto">
+                      <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul className="navbar-nav m-auto ">
+                          <li className="nav-item active mr-3">
+                            <a className="nav-link bolder" href="#">Trending <span className="sr-only">(current)</span></a>
                           </li>
-                          <li class="nav-item mr-3">
-                            <a class="nav-link bolder" href="#">Podcast</a>
+                          <li className="nav-item mr-3">
+                            <a className="nav-link bolder" href="#">Podcast</a>
                           </li>
                          
-                          <li class="nav-item mr-3">
-                            <a class="nav-link bolder" href="#" >Moods and genres</a>
+                          <li className="nav-item mr-3">
+                            <a className="nav-link bolder" href="#" >Moods and genres</a>
                           </li>
-                          <li class="nav-item mr-3">
-                              <a class="nav-link bolder" href="#" >New Releases</a>
+                          <li className="nav-item mr-3">
+                              <a className="nav-link bolder" href="#" >New Releases</a>
                             </li>
-                            <li class="nav-item mr-3">
-                              <a class="nav-link bolder" href="#" >Discover</a>
+                            <li className="nav-item mr-3">
+                              <a className="nav-link bolder" href="#" >Discover</a>
                             </li>
                         </ul>
                        
@@ -87,38 +87,38 @@ import {Navbar} from 'react-bootstrap';
                 </nav>
           <div>
                
-                <div class="row">
-              <div class="col-10"></div>
+                <div className="row">
+              <div className="col-10"></div>
             </div>
-            <div class="row ml-5">
-              <div class="col-10">
+            <div className="row ml-5">
+              <div className="col-10">
                 <div id="rock">
                   <h2>Eminem</h2>
                   <div
-                    class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
+                    className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
                     id="Eminem"
                   ></div>
                 </div>
               </div>
             </div>
-            <div class="row ml-5">
-              <div class="col-10">
+            <div className="row ml-5">
+              <div className="col-10">
                 <div id="rock">
-                  <h2>Metallica</h2>
+                  <h2>Rihanna</h2>
                   <div
-                    class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
-                    id="Metallica"
+                    className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
+                    id="Rihanna"
                   ></div>
                 </div>
               </div>
             </div>
-            <div class="row ml-5">
-              <div class="col-10">
+            <div className="row ml-5">
+              <div className="col-10">
                 <div id="rock">
-                  <h2>Behemoth</h2>
+                  <h2>Metallica</h2>
                   <div
-                    class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
-                    id="Behemoth"
+                    className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3"
+                    id="Metallica"
                   ></div>
                 </div>
               </div>
