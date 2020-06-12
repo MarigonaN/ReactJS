@@ -11,7 +11,7 @@
   font-weight: 700;
 }
 body{
-  background-image: url('/spotify/images/11.svg');
+  background-image: url('./images/11.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
