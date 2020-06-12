@@ -7,16 +7,13 @@ import {Navbar} from 'react-bootstrap';
         const mystyle = {
             position: "sticky",
             top: "0",
-            height: "130 vh",
            
-            alignContent: "space-between",
           };
           const mystyle1 = {
             backgroundColor: "black",
             color: "whitesmoke", 
             border: "1px solid white", 
-            fontWeight: "500",
-            
+          
           };
         
         return (
@@ -35,10 +32,10 @@ import {Navbar} from 'react-bootstrap';
                     <li className="mt-3  nav-item"><a href="/"><i className="fa fa-search mr-3"></i>Search</a></li>
                     <li className="mt-3  nav-item"><a href="/"><i className="fa fa-book  mr-3"></i>Your Library</a></li>
                     </ul>
-         <div className="col d-flex flex-column w-100">
-                <ul className="nav flex-column justify-content-center align-items-center w-100 mt-auto pb-5">
+         <div className="col d-flex flex-column ">
+                <ul className="nav flex-column justify-content-center align-items-center w-100  pb-5">
                   <li className="nav-item w-100 mb-3">
-                      <button type="button" className="btn btn-light  w-100 rounded-pill" style={{fontWeight:"500", marginTop: "350px"}}>SIGN UP</button>
+                      <button type="button" className="btn btn-light  w-100 rounded-pill" style={{fontWeight:"500", marginTop: "300px"}}>SIGN UP</button>
                   </li>
                   <li className="nav-item w-100 mb-2">
                      <button type="button" onClick="goToLogin()" className="btn btn-secondary w-100 rounded-pill" style={mystyle1}>LOGIN</button>
@@ -49,6 +46,12 @@ import {Navbar} from 'react-bootstrap';
                  
                 </ul>
          </div>
+
+
+    
+
+
+
     </div>
     
     </Navbar>
