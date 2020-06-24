@@ -81,7 +81,7 @@ import {Navbar} from 'react-bootstrap';
                               <a className="nav-link bolder" href="#" >New Releases</a>
                             </li>
                             <li className="nav-item mr-3">
-                              <a className="nav-link bolder" href="#" >Discover</a>
+                              <a className="nav-link bolder" href="#" >Discoverr</a>
                             </li>
                         </ul>
                        
