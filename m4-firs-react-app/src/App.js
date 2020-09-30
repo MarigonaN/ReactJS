@@ -5,7 +5,6 @@ import './App.css'
 import Footer from "./components/Footer";
 import JumbotronC from "./components/JumbotronC";
 import LatestRelease from "./components/LatestRelease";
-import 'font-awesome/css/font-awesome.min.css';
 
 
 function App() {
